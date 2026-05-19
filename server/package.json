@@ -1,0 +1,22 @@
+{
+  "name": "ghostmap-server",
+  "version": "1.0.0",
+  "description": "GhostMap backend — Nmap wrapper + CVE API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nmap",
+    "network-scan",
+    "cybersecurity"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-libnmap": "^0.2.15",
+    "ws": "^8.20.1"
+  }
+}

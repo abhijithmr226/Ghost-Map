@@ -1,0 +1,15 @@
+{
+  "name": "ghostmap",
+  "version": "2.0.0",
+  "description": "GhostMap Cybersecurity Scan Dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "build:client": "npm run build --prefix client",
+    "pack": "npm run build:client && electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^42.1.0"
+  }
+}
